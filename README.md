@@ -37,7 +37,7 @@ L6_L7_59_phone_repair_quote/
 └── LAB7/                                       # Lab 7: Fuzz Testing for Input Validation Bugs
     ├── phone_repair_quote_parser.py            # Security-hardened input parsing module
     ├── test_phone_repair_quote_parser.py       # Hypothesis property-based fuzz tests
-    ├── PES2UG24AM059_Harshitha_Vangaveti_LAB7.pdf # Final submission report with SS1–SS4 & reflections
+    ├── PES2UG24AM064_Harshitha_Vangaveti_LAB7.pdf # Final submission report with SS1–SS4 & reflections
     ├── SS1_buggy_run.png                       # SS1: Original buggy parser execution
     ├── SS2_failing_tests.png                   # SS2: Hypothesis fuzz tests failing on buggy code
     ├── SS3_fixed_run.png                       # SS3: Hardened parser execution on standard input
@@ -103,7 +103,7 @@ When running property-based tests across random string strategies and `None` (`s
 - **SS2 (`SS2_failing_tests.png`)**: Hypothesis identifying failing counterexamples on the unhardened module.
 - **SS3 (`SS3_fixed_run.png`)**: Clean execution of the hardened module with valid inputs.
 - **SS4 (`SS4_passing_tests.png`)**: All Hypothesis fuzz tests passing 100% across hundreds of random and malformed inputs.
-- **PDF Report (`PES2UG24AM059_Harshitha_Vangaveti_LAB7.pdf`)**: Formatted submission document including all 4 screenshots and answers to reflection questions.
+- **PDF Report (`PES2UG24AM064_Harshitha_Vangaveti_LAB7.pdf`)**: Formatted submission document including all 4 screenshots and answers to reflection questions.
 
 ### How to Run Lab 7 Fuzz Tests
 
