@@ -1,0 +1,17 @@
+> coverage run --branch -m pytest BranchCoverageTest_phone_repair_quote.py
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.2.0, pluggy-1.7.0
+rootdir: C:\Users\harsh\OneDrive\Documents\harsheez\SE\LAB 6
+collected 18 items
+
+BranchCoverageTest_phone_repair_quote.py ..................              [100%]
+
+============================= 18 passed in 0.05s ==============================
+
+> coverage report -m
+Name                                       Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------------------------------
+BranchCoverageTest_phone_repair_quote.py      43      0      0      0   100%
+phone_repair_quote.py                         40      0     28      0   100%
+--------------------------------------------------------------------------------------
+TOTAL                                         83      0     28      0   100%
