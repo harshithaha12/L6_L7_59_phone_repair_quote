@@ -1,0 +1,17 @@
+> coverage run -m pytest CodeCoverageTest_phone_repair_quote.py
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.2.0, pluggy-1.7.0
+rootdir: C:\Users\harsh\OneDrive\Documents\harsheez\SE\LAB 6
+collected 13 items
+
+CodeCoverageTest_phone_repair_quote.py .............                     [100%]
+
+============================= 13 passed in 0.04s ==============================
+
+> coverage report -m
+Name                                     Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------
+CodeCoverageTest_phone_repair_quote.py      32      0   100%
+phone_repair_quote.py                       40      0   100%
+----------------------------------------------------------------------
+TOTAL                                       72      0   100%
